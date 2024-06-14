@@ -1,4 +1,4 @@
-This repository contains a C++ implementation of a neural network with backpropagation, designed to classify the MNIST dataset.
+This repository contains a C++ implementation of a neural network with backpropagation, designed to classify the MNIST Fashion dataset.
 
 The Network contains 3 Hidden Layers with Sigmoid Activation Functions and a Softmax Output.
 
