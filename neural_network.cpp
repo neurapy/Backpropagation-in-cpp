@@ -172,7 +172,6 @@ float NeuralNetwork::cross_entropy_loss(const std::vector<float>& output, const 
     float loss = 0.0;
     for (size_t i = 0; i < output.size(); ++i) {
         loss -= target[i] * std::log(output[i] + 1e-10); // small epsilon to avoid log(0)
-        // (only rewarding not punishing ensuring it doesent kill me later)
     }
     return loss;
 }
