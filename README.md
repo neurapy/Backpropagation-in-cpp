@@ -5,5 +5,3 @@ The Network contains 3 Hidden Layers with Sigmoid Activation Functions and a Sof
 As this was a training project, the only thing the network can do is train as well.
 
 You can find the necessary training/testing Data here: https://github.com/golbin/TensorFlow-MNIST/tree/master/mnist/data
-
-The Data must be in the same directory as the executable.
